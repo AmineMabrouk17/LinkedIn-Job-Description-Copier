@@ -1,0 +1,13 @@
+{
+  "name": "linkedin-job-description-copier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser extension that copies a LinkedIn job description as clean text.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "icons": "node tools/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

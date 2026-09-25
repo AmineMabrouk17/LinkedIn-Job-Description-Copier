@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LinkedIn Job Description Copier</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <h1 class="title">Job description</h1>
+      <p class="status" id="status" role="status">Checking this page…</p>
+
+      <label class="option">
+        <input type="checkbox" id="include-header" />
+        <span>Include job title, company and location</span>
+      </label>
+
+      <button class="copy" id="copy" type="button" disabled>Copy description</button>
+
+      <p class="hint">
+        On a job page, <kbd>Ctrl</kbd>+<kbd>C</kbd> copies the description too.
+      </p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
